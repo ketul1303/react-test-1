@@ -1,0 +1,31 @@
+1) porps are like arguments and parameters. This is use for passing elements to their child and grandChild.
+   state is block of code which is updated by user, when user take action then state will update.
+
+2) There are two tyes of components in react.
+   a) class components
+   b) functional components
+
+3) a)componentDidMount
+   b)componentMount
+   c)componentWillUnmount
+
+4) 
+
+5) To avoid prop drilling context was intoduced.
+
+6) There is one exesting UI in which the user take action and the function will triger. And then state will be change and then react update the UI.
+
+7) Suppos there are two sibllings which is depended on each other. At that time we can not pass props.In case like these we life the state in to the parent component.
+   If both comoponets or one of the component is depned on the other siblling then we use 'lift the state up'.
+
+8) No, In React in class componet we can not change or update value directly bu using "=".In that case value will update but the UI will not be update.
+
+9) A)useEffect(() => {},[]); 
+	-> This is like compontMount, In this case when page is load, component will update 
+   B)useEffect(() => {},[componet name]);
+	-> This is like componentDidMount, In this case idf want to update one componet then mention the name in [].
+   C)useEffect(() => {},[] 
+     return());
+	-> In this like componentWillUnmount, In this case we have to return component.
+
+10) <input type="text" value={name} onChange={(e) => e.target.value} /> 
